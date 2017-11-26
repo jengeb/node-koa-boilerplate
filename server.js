@@ -18,7 +18,7 @@ function createRouter(collection) {
   const router = new Router({prefix: `${MOUNT_PATH}/data`});
 
   // get count of all data
-  router.get('/data', async ctx => {
+  router.get('/', async ctx => {
     // await database call
     const count = await collection.count();
     ctx.status = 200;
