@@ -26,7 +26,7 @@ function createRouter(collection) {
   });
 
   // get count of data by a single user
-  router.get('/data/:userId', async ctx => {
+  router.get('/:userId', async ctx => {
     const countOfUser = await collection.find({userId: ctx.params.userId}).count();
     ctx.status = 200;
     ctx.body = {status: 200, message: 'OK', data: countOfUser};
