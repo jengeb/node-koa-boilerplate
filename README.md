@@ -34,46 +34,6 @@ docker exec -it <CONTAINER ID> mongo
 > exit
 ```
 
-
----
-
-
-## Other ways to get the backend running
-
-### MongoDB
-
-Make sure MongoDB is running either installed on your system (here OS X using homebrew) or in a Docker container (recommended way):
-
-#### System
-
-```
-brew services start mongodb
-```
-
-#### Docker
-
-##### Installation
-
-```
-docker pull mvertes/alpine-mongo
-```
-
-##### Usage
-
-```
-docker run -d --name mongo -p 27017:27017 mvertes/alpine-mongo
-```
-
-If the container is already set up just start it:
-```
-docker start <CONTAINER ID>
-```
-
-#### Start server
-```
-npm start
-```
-
 ---
 
 ## Test REST API locally
