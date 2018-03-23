@@ -50,6 +50,7 @@ function createRouter(collection) {
     const insertion = await collection.insertOne(newData);
     // get index (id of inserted entry)
     const index = await collection.find({'_id': {$lte: insertion.insertedId}}).count();
+    ctx.body = {status: 201, message: 'Created', index};
   });
 
   return router;
