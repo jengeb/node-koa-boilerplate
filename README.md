@@ -5,8 +5,6 @@ Boilerplate code to start a database application (node.js REST API with MongoDB 
 ## Installation
 
 ```
-chmod +x setup.sh
-./setup.sh
 npm install
 ```
 
