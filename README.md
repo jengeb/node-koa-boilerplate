@@ -32,8 +32,6 @@ docker exec -it <CONTAINER ID> mongo
 > exit
 ```
 
----
-
 ## Run unit tests
 
 ```
