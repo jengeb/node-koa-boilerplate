@@ -5,20 +5,23 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "dev": "nodemon -e js server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^4.12.0",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "should": "^13.2.1",
+    "supertest": "^3.0.0"
   },
   "dependencies": {
     "kcors": "^2.2.1",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.3.0",
+    "mocha": "^5.0.5",
     "mongodb": "^2.2.33"
   }
 }
