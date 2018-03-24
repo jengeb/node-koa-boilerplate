@@ -34,6 +34,14 @@ docker exec -it <CONTAINER ID> mongo
 
 ---
 
+## Run unit tests
+
+```
+npm test
+```
+
+---
+
 ## Test REST API locally
 ### POST
 ```
