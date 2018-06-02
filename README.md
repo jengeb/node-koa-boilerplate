@@ -1,5 +1,7 @@
 # Getting started
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jengeb/node-koa-boilerplate.svg)](https://greenkeeper.io/)
+
 Boilerplate code to start a database application (node.js REST API with MongoDB connection).
 
 ## Installation
